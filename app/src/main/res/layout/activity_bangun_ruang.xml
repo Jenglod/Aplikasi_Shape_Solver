@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".BangunRuang">
+
+    <ImageButton
+        android:id="@+id/backBtn"
+        android:layout_width="62dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#01FFFFFF"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/backicon" />
+
+
+    <TextView
+        android:id="@+id/pilih_kategori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/margarine"
+        android:gravity="center"
+        android:text="@string/jenis_bangun_ruang"
+        android:textColor="#FFFFFF"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.529"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backBtn" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="414dp"
+        android:layout_height="545dp"
+        android:src="@drawable/backgroundputih"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pilih_kategori"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="@+id/imageView3">
+
+        <ImageButton
+            android:id="@+id/tabung"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tabung" />
+
+        <ImageButton
+            android:id="@+id/kerucut"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kerucut" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3">
+
+        <ImageButton
+            android:id="@+id/kubus"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kubus" />
+
+        <ImageButton
+            android:id="@+id/balok"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:backgroundTint="#00FFFFFF"
+            android:scaleType="centerCrop"
+            android:src="@drawable/balok" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/background_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bgtabbar"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+    <LinearLayout
+        android:id="@+id/tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:layout_gravity="center|bottom"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+
+        <ImageButton
+            android:id="@+id/tab_home"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="35dp"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/home"
+            android:scaleType="centerCrop"
+            android:src="@drawable/barhome" />
+
+
+        <ImageButton
+            android:id="@+id/tab_flateshape"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginEnd="35dp"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/flateshape"
+            android:scaleType="centerCrop"
+            android:src="@drawable/barflateshape" />
+
+
+        <ImageButton
+            android:id="@+id/tab_solidshape"
+            android:layout_width="45dp"
+            android:layout_height="44dp"
+            android:layout_marginEnd="35dp"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/solidshape"
+            android:scaleType="centerCrop"
+            android:src="@drawable/barsolidshape" />
+
+
+        <ImageButton
+            android:id="@+id/tab_calculate"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackground"
+            android:contentDescription="@string/calculate"
+            android:scaleType="centerCrop"
+            android:src="@drawable/barcalculate" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

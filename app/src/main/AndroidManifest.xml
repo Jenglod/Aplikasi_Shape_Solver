@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/icon_launcher"
+        android:label="SHAPE SOLVER"
+        android:roundIcon="@mipmap/icon_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Shape"
+        tools:targetApi="31">
+        <activity
+            android:name=".Kalkulator"
+            android:exported="false" />
+        <activity
+            android:name=".RumusKerucut"
+            android:exported="false" />
+        <activity
+            android:name=".Kerucut"
+            android:exported="false" />
+        <activity
+            android:name=".RumusKubus"
+            android:exported="false" />
+        <activity
+            android:name=".Kubus"
+            android:exported="false" />
+        <activity
+            android:name=".RumusTabung"
+            android:exported="false" />
+        <activity
+            android:name=".Tabung"
+            android:exported="false" />
+        <activity
+            android:name=".RumusBalok"
+            android:exported="false" />
+        <activity
+            android:name=".Balok"
+            android:exported="false" />
+        <activity
+            android:name=".RumusPersegiPanjang"
+            android:exported="false" />
+        <activity
+            android:name=".PersegiPanjang"
+            android:exported="false" />
+        <activity
+            android:name=".RumusSegitiga"
+            android:exported="false" />
+        <activity
+            android:name=".Segitiga"
+            android:exported="false" />
+        <activity
+            android:name=".RumusLingkaran"
+            android:exported="false" />
+        <activity
+            android:name=".Lingkaran"
+            android:exported="false" />
+        <activity
+            android:name=".RumusPersegi"
+            android:exported="false" />
+        <activity
+            android:name=".Persegi"
+            android:exported="false" />
+        <activity
+            android:name=".BangunDatar"
+            android:exported="false" />
+        <activity
+            android:name=".PilihKategori"
+            android:exported="false" />
+        <activity
+            android:name=".BangunRuang"
+            android:exported="false" />
+        <activity
+            android:name=".PilihKategory"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

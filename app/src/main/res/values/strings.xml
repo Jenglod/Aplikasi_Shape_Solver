@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Shape</string>
+    <string name="shape_solver">SHAPE SOLVER</string>
+    <string name="shortcut_to_the_most_frequently_used_feature">Shortcut to the most frequently used feature</string>
+    <string name="mudah_dan_cepat_hitung_volume_luas_bangun"><![CDATA[Mudah dan Cepat Hitung Volume & Luas Bangun]]></string>
+    <string name="pilih_kategori_geometri">PILIH KATEGORI GEOMETRI</string>
+    <string name="pilih_jenis_bangunan_untuk_menghitung_luas_atau_volume">Pilih jenis bangunan untuk menghitung luas atau volume</string>
+    <string name="bangun_datar">Bangun Datar</string>
+    <string name="bangun_ruang">Bangun Ruang</string>
+    <string name="calculator">Calculator</string>
+    <string name="home">Home</string>
+    <string name="flateshape">Bangun Datar</string>
+    <string name="solidshape">Bangun ruang</string>
+    <string name="calculate">Kalkulator</string>
+    <string name="jenis_bangun_datar">JENIS BANGUN DATAR</string>
+    <string name="jenis_bangun_ruang">JENIS BANGUN RUANG</string>
+    <string name="ayo_menghitung_luas_persegi">AYO MENGHITUNG LUAS PERSEGI!🤩</string>
+    <string name="panjang_sisi">PANJANG SISI :</string>
+    <string name="hitung_luas">Hitung Luas</string>
+    <string name="jari_jari">JARI-JARI:</string>
+    <string name="hitung_volume">Hitung Volume</string>
+</resources>
